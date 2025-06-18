@@ -1,0 +1,71 @@
+.ja {
+  background: url('fondo.jpg');
+  width: 95%;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background: url('nav.jpg');
+  line-height: 50px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+section {
+  box-shadow: 0px 2px 5px #1c1a19;
+  border-radius: 30px;
+  padding: 5px;
+  color: rgb(246, 9, 9);
+  font-size: 20px;
+  background: url('section.jpg');
+  margin: 5px;
+  width: 55%;
+  height: 900px;
+  float: left;
+  box-sizing: border-box;
+}
+
+aside {
+  box-shadow: 0px 2px 5px #1c1a19;
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 0.9em;
+  background: url('aside.jpg');
+  margin: 0px;
+  width: 35%;
+  height: 900px;
+  float: right;
+  box-sizing: border-box;
+}
+
+/* Pie de página */
+footer {
+  padding-top: 15px;
+  position: fixed;
+  left: 30px;
+  right: 30px;
+  bottom: 5px;
+  width: 90%;
+  height: 70px;
+  background: url('footer.jpg');
+  text-align: center;
+  color: white;
+}
+
+/* Nuevos estilos personalizados */
+.descripcion {
+  color: black;
+  font-size: 14px;
+}
+
+.contenido-adicional {
+  color: red;
+}
